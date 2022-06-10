@@ -1,0 +1,165 @@
+#oNas{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("../images/backgrounds/oNas/shivanshu-gaur-tYans8xqIHw-unsplash.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   .oNas__title {
+       text-align: center;
+       color: $maintext;
+        @media (min-width: 1200px) {
+            padding-top: $section-space-from-top;
+        }
+   }
+   .oNas_box{
+        .oNas_box-main{
+            margin-bottom: 100px;
+            &:last-child{
+                margin-bottom: 150px;
+            }
+        }
+
+        .oNas_img_hover{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left:0;
+            padding:0 15px;
+            z-index: 2;
+            top: 0;
+            // height: 930px;
+            // height: 100%;
+            // width: 100%;
+            @media (max-width: 575.98px) {
+                top:10px;
+                    }
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                top:10px;
+            }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                top:10px;
+            }
+            
+           
+            img{
+                height: 938px;
+                object-fit: cover;
+                transition: opacity 0.5s ease-in-out;
+                cursor: pointer;
+                padding: 0;
+      
+                
+                
+                &:hover{
+                    opacity: 0;
+                    transition: opacity 0.5s ease-in-out;
+                }
+            }
+        }
+        .hover_2{
+            img{
+                @media (max-width: 575.98px) {
+                    
+                    height: 1155px;
+                }
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                    height: 930px;
+                }
+                @media (min-width: 768px) and (max-width: 991.98px) {
+                    height: 930px;
+                }
+                @media (min-width: 992px) and (max-width: 1199.98px) {
+                    height: 974px;
+                }
+            }
+            
+            
+        }
+        .hover_1{
+            img{
+                @media (max-width: 575.98px) {
+                    
+                    height: 1228px;
+                }
+                
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                    height: 966px;
+                }
+                
+                @media (min-width: 768px) and (max-width: 991.98px) {
+                    height: 966px;
+                }
+                
+                @media (min-width: 992px) and (max-width: 1199.98px) {
+                    height: 974px;
+                }
+            }
+        }
+ 
+    
+        .oNas_pawel-box {
+            display: flex;
+            min-height: 930px;
+            flex-direction: column;
+            min-width: 100%;
+            background-color: black;
+            color:white;
+                p{
+                    padding:10px 20px 5px 20px;
+                }
+                .oNas__bottom-text-last{
+                    text-align: center;
+                    margin-bottom: 5px;
+                }
+                .oNas__bottom-text{
+                    font-size:30px;
+                    text-transform: uppercase;
+                    font-family: $Anton;
+                    text-align: center;
+                 
+                    
+                        @media (min-width: 282px) and (max-width: 768px) {
+                            font-size:27px;
+                    }
+                    
+                }
+                .oNas__bottom-img{
+                    width: calc(100% + 0.5px);
+                        object-fit: cover;
+                        -webkit-clip-path: polygon(50% 100%, 100% 90%, 100% 0, 0 0, 0 90%);
+                        clip-path: polygon(50% 100%, 100% 90%, 100% 0, 0 0, 0 90%);
+                        filter: grayscale(100%);
+                     
+                        @media (max-width: 575.98px) { 
+                            width: 100%; 
+                        } 
+                         
+ 
+                        @media (min-width: 576px) and (max-width: 767.98px) { 
+                            width: 100%; 
+                        } 
+                         
+                        @media (min-width: 768px) and (max-width: 991.98px) { 
+                            width: 100%; 
+                        } 
+                         
+                        @media (min-width: 992px) and (max-width: 1199.98px) { 
+                            width: 100%
+                        } 
+                 
+                    }
+            
+                        @media (min-width: 282px) and  (max-width: 991.98px) {
+                            margin-top: 10px;
+                            margin-bottom: 20px;
+                        }
+           
+        }
+       
+  
+   }    
+}
+
+
+

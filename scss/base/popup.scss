@@ -1,0 +1,33 @@
+.modal-content{
+    background:black !important;
+ 
+    .modal-header{
+        color:white;
+        border-bottom: 1px solid $primary;
+    }
+    .modal-body{
+        color:white;
+        font-family: $Roboto;
+        
+        ul{
+            list-style: disc;
+            margin-left: 30px;
+            li{
+
+                line-height: 2rem;
+            }
+        }
+        ol{
+            list-style:decimal;
+            margin-left: 30px;
+            li{
+
+                line-height: 2rem;
+            }
+        }
+   
+    }
+    .modal-footer{
+        border-top: 1px solid $primary;
+    }
+}

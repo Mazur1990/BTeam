@@ -1,0 +1,48 @@
+.razor {
+  margin-top: -12rem;
+  -webkit-filter: drop-shadow(-1px 6px 30px rgba(136, 136, 136, 0.5));
+          filter: drop-shadow(-1px 6px 30px rgba(136, 136, 136, 0.5));
+  z-index: 1;
+}
+
+.razor .razor_shadow {
+  position: relative;
+  top: 0px;
+  height: 12rem;
+  width: 100%;
+  background: #181818;
+  z-index: 10;
+  clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 50%);
+  -webkit-clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 50%);
+  -moz-clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 50%);
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+@media (max-width: 1199.98px) {
+  .razor .razor_shadow {
+    height: 10rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .razor .razor_shadow {
+    clip-path: polygon(0, 100% 0%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0, 100% 50%, 100% 100%, 0 50%);
+    -moz-clip-path: polygon(0, 100% 50%, 100% 100%, 0 50%);
+    height: 4rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .razor {
+    margin-top: -10rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .razor {
+    margin-top: -4rem;
+  }
+}
+/*# sourceMappingURL=razorblade.css.map */

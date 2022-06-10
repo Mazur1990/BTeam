@@ -1,0 +1,110 @@
+#kontakt{
+    padding-top: 100px;
+    padding-bottom: 200px !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.795)),
+    url("../images/backgrounds/oNas/shivanshu-gaur-tYans8xqIHw-unsplash.jpg");
+    text-align: center;
+    .kontakt-body{
+        margin:0px;
+        .kontakt-body-column{
+        
+        .card{
+           border: none;
+           border-radius: 17px;
+           @media (min-width: 768px) and (max-width: 991.98px) {
+            margin-bottom: 20px;
+                        }
+            .card-body{
+               background:black;
+                border-radius: 15px;
+                height: 100%;
+                @media (max-width: 575.98px) {
+                    max-height: 550px;
+                }
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                    max-height: 550px;
+                }
+
+            
+                
+                .kontakt-text {
+            
+                    h3{
+                       color:white;
+                       margin-bottom: 10px; 
+                       
+                        
+                    }
+                }
+                .md-form{
+                    font-family: $SourceSansPro;
+                    
+                    padding: 5px;
+                    label{
+                    padding:5px;
+                    width:50%;
+                    color:white;
+                    }
+                    .form-control{
+                    background:rgb(195, 195, 195)
+                    }
+                }
+                button {
+                    margin-top: 16px;
+                    @media (max-width: 575.98px) {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .google-kolumn {
+            @media (min-width: 282px) and (max-width: 768px) {
+
+                margin-top: 20px;
+
+            }
+             
+      
+              .kolumn-map {
+                padding:1.25rem;
+                background:black;
+                border-radius: 15px;
+                max-height: 508px;
+                @media (max-width: 575.98px) {
+                    max-height: 575px;
+                }
+            
+            
+            
+                #googlemap {
+                    
+                    
+                    max-width: 100%;
+                    height:406px;
+                    iframe{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+              }
+            .kontakt-dane{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding-top: 15px;
+                @media (max-width: 575.98px) {
+                    padding-top: 5px;
+                }
+                
+                
+                p{
+                    font-size: 80%;
+                    font-weight: bold;
+                    color:white;
+                }
+            }
+     }
+    }
+}

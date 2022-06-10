@@ -1,0 +1,29 @@
+@mixin transition($delay: 0.4s) {
+    transition: all $delay ease;
+}
+
+@mixin box-shadow() {
+    box-shadow: -10px 10px 30px -15px rgba(0,0,0,0.75);
+}
+
+@mixin borderOnImage {
+    border: 15px solid #fff;
+}
+
+@mixin centerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin opacity($opacity: 0.8) {
+    opacity: $opacity;
+}
+
+@mixin name {
+    @media (max-width: 1199px) {
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+}

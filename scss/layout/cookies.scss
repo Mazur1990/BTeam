@@ -1,0 +1,28 @@
+#cookies{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(white, 0.6);
+    width: 100%;
+    text-align: center;
+    font-size: 80%;
+    p{
+        width: 100%;
+    }
+    @media (max-width: 768px) {
+        font-size: 70%;
+    }
+    #closeCookies{
+        padding: 1rem;
+        font-size: 200%;
+        &:hover{
+            cursor: pointer;
+            color: $primary;
+        }
+        @media (max-width: 768px) {
+            font-size: 150%;
+        }
+    }
+}

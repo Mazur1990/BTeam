@@ -1,0 +1,37 @@
+.btn{
+    padding: .5rem 2.4rem;
+    bottom:0px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn-primary{
+    color: #fff;
+    background-color: $secondary;
+    border-color: $secondary;
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    
+    &:hover, &:active{
+        color: color-yiq($primary);
+        border-color: $primary;
+        background-color: $primary;
+      }
+    &:active{
+        border-color: $secondary !important;
+    }
+    &:focus{
+        box-shadow: 0 0 0 0.2rem rgba(205, 202, 235, 0.5);
+    }   
+}
+.btn-white{
+    color: #000;
+    background-color: #ffffff;
+    border-color: $primary;
+    
+    &:hover, &:active{
+        color: color-yiq($secondary);
+        border-color: $secondary;
+        background-color: rgba($secondary, .9) !important;
+      }
+}

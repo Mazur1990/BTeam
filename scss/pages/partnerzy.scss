@@ -1,0 +1,111 @@
+#partners{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.6)),url("../images/backgrounds/partnerzy/4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px !important;
+    .partners__title{
+        @media (min-width: 1200px) {
+            padding-top: $section-space-from-top;
+        }
+
+    }
+
+    
+        .partners-images {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            .partner-logo-box{
+                height: 300px;
+                max-height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin:20px;
+                img{
+                    height: 120px;
+                    @media (min-width: 576px) and (max-width: 767.98px) {
+                        margin:10px;
+                    }
+                }
+                @media (max-width: 575.98px) {
+                    transform:scale(0.8);
+                }
+           
+
+                @media (min-width: 768px) and (max-width: 991.98px) {
+                    transform:scale(0.8);
+                }
+                
+                
+            }
+            @media (max-width: 575.98px) {
+                max-height: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: auto;
+                margin-top: 100px;
+            }
+       
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+       
+        }
+        .partners-images-bottom{
+            @media (max-width: 575.98px) {
+                margin-top: 200px;
+            }
+
+            @media (min-width: 576px) and (max-width: 767.98px) {
+              margin-top: 100px;
+            }
+        }
+        .partners-images-top-safari{
+            @media (max-width: 575.98px) {
+                margin-top: 200px;
+            }
+        }
+        .partners-images-bottom-safari{
+            @media (max-width: 575.98px) {
+                margin-top: 400px;
+            }
+        }
+}
+.partnerzy-center{
+    display: flex;
+    justify-content: center;
+    &:first-child{
+        margin-top: 30px;
+    }
+
+}
+
+#pztp{
+    @media (max-width: 575.98px) {
+        transform:scale(0.9);
+    }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        transform:scale(0.9);
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        transform:scale(0.8);
+    }
+}
+
+#sc_ok_1{
+    transform:scale(1.1);
+}
+
+#projekt_fabryczna_logo{
+    transform:scale(1.4);
+}
